@@ -7,3 +7,16 @@ POST /signup -> Create a new user
 POST /login -> Login (Authenticate user)
 POST /events/<id>/register -> Register user for Event (Auth required)
 DELETE /events/<id>/register -> Cancel registration (Auth required)
+
+
+
+
+SAMPLE:
+
+{
+  "Name": "Sample Event",
+  "Description": "This is a description of the event.",
+  "Location": "New York City",
+  "DateTime": "2025-04-17T14:30:00Z",
+  "UserID": 123
+}
